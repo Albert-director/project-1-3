@@ -1,153 +1,136 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords" content="вёрстка, HTML, CSS, блог">
-    <meta name="description" content="Блог о процессе обучения веб-технологиям">
-  <title>Верстка блока</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body class="body">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="вёрстка, HTML, CSS, блог" />
+    <meta
+      name="description"
+      content="Блог о процессе обучения веб-технологиям"
+    />
+    <title>Верстка блока</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="body">
+    <header class="page-header">
+      <nav class="page-header_nav navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <button class="navigation__item-button">
+              <img src="assets/ic/burger.svg" />
+            </button>
+          </li>
+          <li class="navigation__item">
+            <img src="assets/ic/divider.svg" />
+          </li>
+          <li class="navigation__item">
+            <button class="navigation__item-button">
+              <img src="assets/ic/group.svg" />
+            </button>
+          </li>
+          <li class="navigation__item">
+            <button class="navigation__item-button">
+              <img src="assets/ic/call.svg" />
+            </button>
+          </li>
+          <li class="navigation__item">
+            <button class="navigation__item-button">
+              <img src="assets/ic/chat.svg" />
+            </button>
+          </li>
+          <li class="navigation__item">
+            <button class="navigation__item-button">
+              <img src="assets/ic/profile.svg" />
+            </button>
+          </li>
+          <li class="navigation__item">
+            <img src="assets/ic/divider.svg" />
+          </li>
+          <li class="navigation__item">
+            <button class="navigation__item-button">
+              <img src="assets/ic/repair.svg" />
+            </button>
+          </li>
+          <li class="navigation__item">
+            <button class="navigation__item-button">
+              <img src="assets/ic/checkstatus.svg" />
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-<header class="page-header">
-  <nav class="page-header_nav navigation">
-    <ul class="navigation__list">
-      <li class="navigation__item">
-        <button class="navigation__item-button">
-          <img src="assets/ic/burger.svg">
-        </button>
-      </li>
-      <li class="navigation__item">
-          <img src="assets/ic/divider.svg">
-      </li>   
-      <li class="navigation__item">
-        <button class="navigation__item-button">
-          <img src="assets/ic/group.svg">
-        </button>
-      </li>
-      <li class="navigation__item">
-      <button class="navigation__item-button">
-          <img src="assets/ic/call.svg">
-        </button>
-      </li>
-      <li class="navigation__item">
-        <button class="navigation__item-button">
-          <img src="assets/ic/chat.svg">
-        </button>
-      </li>
-      <li class="navigation__item">
-        <button class="navigation__item-button">
-          <img src="assets/ic/profile.svg">
-        </button>
-      </li>
-      <li class="navigation__item">
-          <img src="assets/ic/divider.svg">
-      </li>   
-      <li class="navigation__item">
-        <button class="navigation__item-button">
-          <img src="assets/ic/repair.svg">
-        </button>
-      </li>
-      <li class="navigation__item">
-        <button class="navigation__item-button">
-          <img src="assets/ic/checkstatus.svg">
-        </button>
-      </li>
-    </ul>
-  </nav>
-</header>
+    <main class="page-main">
+      <div class="page-main__container">
+        <div class="page-main__title">
+          <img
+            class="page-main__title__img"
+            src="assets/svg_input/highlight.svg"
+          />
+          <h1 class="page-main__title__h1">Услуги и сервисы</h1>
+        </div>
+        <div class="main__navigation">
+          <ul class="main__navigation-list">
+            <li class="main__navigation__item">
+              <p class="main__paragraf">Оставить заявку</p>
+              <button class="main-button">
+                <img src="assets/ic/repair.svg" />
+              </button>
+            </li>
+            <li class="main__navigation__item">
+              <p class="main__paragraf">Статус ремонта</p>
+              <button class="main-button">
+                <img src="assets/ic/checkstatus.svg" />
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
 
+      <nav class="main__navigation__topic">
+        <ul class="topic-tabs">
+          <li class="topic-tabs__item">
+            <a href="#" class="item__a first"> Ремонтируемые бренды </a>
+          </li>
+          <li class="topic-tabs__item">
+            <a href="#" class="item__a"> Дополнительные услуги </a>
+          </li>
+          <li class="topic-tabs__item">
+            <a href="#" class="item__a"> Цены на услуги </a>
+          </li>
+          <li class="topic-tabs__item">
+            <a href="#" class="item__a"> Адреса сервисных центров </a>
+          </li>
+          <li class="topic-tabs__item">
+            <a href="#" class="item__a"> Специальные цены </a>
+          </li>
+          <li class="topic-tabs__item last">
+            <a href="#" class="item__a"> Отзывы </a>
+          </li>
+        </ul>
+      </nav>
 
-<main class="page-main">
-  <div class="page-main__container">
-  <div class="page-main__title">
-    <img class="page-main__title__img" src="assets/svg_input/highlight.svg">
-    <h1 class="page-main__title__h1">
-    Услуги и сервисы
-    </h1>
-  </div>
-    <div class="main__navigation">
-      <ul class="main__navigation-list">
-        <li class="main__navigation__item">
-          <p class="main__paragraf">Оставить заявку</p> 
-          <button class="main-button">
-            <img src="assets/ic/repair.svg">
-          </button>
-        </li>
-        <li class="main__navigation__item">
-          <p class="main__paragraf">Статус ремонта</p>
-          <button  class="main-button">
-            <img src="assets/ic/checkstatus.svg">
-          </button>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <nav class="main__navigation__topic">
-  <ul class="topic-tabs">
-    <li class="topic-tabs__item">
-      <a href="#" class="item__a">
-        Ремонтируемые бренды
-      </a>
-    <li class="topic-tabs__item">
-      <a href="#" class="item__a">
-        Ремонтируемые устройства
-      </a>
-    </li>
-    <li class="topic-tabs__item">
-      <a href="#"  class="item__a-itc">
-        Ремонтируемые устройства
-      </a>
-    </li>
-    </li>
-    <li class="topic-tabs__item">
-      <a href="#"  class="item__a-itc">
-        Дополнительные услуги
-      </a>
-    </li>
-    <li class="topic-tabs__item">
-      <a href="#"  class="item__a-itc">
-        Цены на услуги
-      </a>
-    </li>
-    <li class="topic-tabs__item">
-      <a href="#"  class="item__a-itc">
-        Адреса сервисных центров
-      </a>
-    </li>
-    <li class="topic-tabs__item">
-      <a href="#"  class="item__a-itc">
-        Специальные цены
-      </a>
-    </li>
-    <li class="topic-tabs__item">
-      <a href="#"  class="item__a-itc">
-        Отзывы
-      </a>
-    </li>
-  </ul>
-</nav>
-
-<section class="page-selection">
-  <div class="selection_container">
-  <div class="selection_container__paragraf">
-<p class="paragraf">
-  Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-<br>
-<br>
-Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
-</p>
-  <img src="assets/ic/expand.svg">
-<button class="button-two">
-  Читать далее
-</button>
- </div>
- <img class="footer-img" src="assets/ic/mg3223.png">
- </div>
-</section>
-</main>
-</body>
+      <section class="page-selection">
+        <div class="selection_container">
+          <div class="selection_container__paragraf">
+            <p class="paragraf">
+              Мы являемся авторизованным сервисным центром по ремонту техники
+              Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+              официальной гарантией производителя.
+              <br />
+              <br />
+              Мы успешно работаем с 1992 года и заслужили репутацию надежного
+              партнера, что подтверждает большое количество постоянных клиентов.
+              Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
+              очередь, советуют нас родным и близким.
+            </p>
+            <img src="assets/ic/expand.svg" />
+            <button class="button-two">Читать далее</button>
+          </div>
+          <img class="footer-img" src="assets/ic/mg3223.png" />
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
